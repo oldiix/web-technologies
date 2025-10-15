@@ -4,7 +4,7 @@
     text-decoration: underline;
 }
 
-
+/* span elements that are children of the class text-background */
 div .text-background > span {
     background-color: yellow;
 }
@@ -44,11 +44,12 @@ div > .text-background {
     line-height: 45px;
 }
 
-
+/* Paragraphs that come immediately after any image */
 img + p {
     background-color: brown;
 }
 
+/* paragraphs that are both siblings of an section and appear after any section */
 section ~ p {
     color: red;
 }
