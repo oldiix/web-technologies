@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.30);
+}
+
+.wrapper {
+    width: 1140px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    margin: 15px;
+    float: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: coral;
+    padding: 10px 10px;
+    background: indigo;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+
+.nav-logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+main {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+
+.block {
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 5px solid rgba(0, 255, 110, 0.818);
+    border-radius: 35px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block1 {
+    border-radius: 35px;
+}
+
+.block2 {
+    border-radius: 100px 0;
+}
+
+.block3 {
+    border-radius: 50px 150px;
+}
+
+.block4 {
+    border: solid 20px;
+    border-color: green greenyellow green greenyellow;
+    border-radius: 50% / 10% 10% 10% 10%;
+}
+
+.block5 {
+    border: solid 20px;
+    border-color: greenyellow green greenyellow green;
+    border-radius: 300px 100px / 60px 30px;
+}
+
+.block6 {
+    border: solid 20px;
+    border-color: greenyellow greenyellow greenyellow green;
+    border-bottom-right-radius: 100%;
+}
+
+.block7 {
+    border: double #ffbd67 15px;
+    border-image: url("../task_2/images/border.png") 18 18 18 18;
+}
+
+.block8 {
+    border: double #ffbd67 15px;
+    border-image: url("../task_2/images/border.png") 15 / 15px round;
+}
+
+.block9 {
+    border: double #ffbd67 15px;
+    border-image: url("../task_2/images/border.png") 27 / 15px round;
+}
+
+.block10 {
+    border: double #ffbd67 15px;
+    border-image: url("../task_2/images/border3.png") 20 10 / 17px stretch;
+}
+
+.block11 {
+    border: double #ffbd67 15px;
+    border-image: url("../task_2/images/border3.png") 9 15 / 10px round;
+}
+
+.block12 {
+    border: double #ffbd67 15px;
+    border-image: url("../task_2/images/border3.png") 5 17 / 17px stretch;
+}
