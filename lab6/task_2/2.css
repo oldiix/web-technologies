@@ -109,7 +109,7 @@ main {
 }
 
 .block7 {
-    border: double #ffbd67 15px;
+    border: double #ffbd67 10px;
     border-image: url("../task_2/images/border.png") 18 18 18 18;
 }
 
