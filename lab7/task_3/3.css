@@ -137,20 +137,35 @@ input:hover {
     box-shadow: 0 0 10px 10px rgba(233, 27, 154, 0.6);
 }
 
-.submit-button:hover {
-    transition: 0.1s;
+.submit-button {
+    position: relative;
     border: solid 3px #0097a7;
-    color: white;
-    background-color: #0097a7;
-    border-radius: 15px;
+    color: #0097a7;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.2s;
 }
 
-.submit-button:active {
-    border: solid 3px #ecfd00;
-    background-color: #014950;
-    border-radius: 25px;
-    position: relative;
+
+.submit-button:hover {
+    color: white;
+    background-color: #0097a7;
 }
+
+
+.submit-button:active::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url("images/done.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .reset-button:hover {
     transition: 0.1s;
