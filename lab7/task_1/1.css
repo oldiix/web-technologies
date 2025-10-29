@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 15px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ body {
 
 .block {
     border: 3px solid black;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
