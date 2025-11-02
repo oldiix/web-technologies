@@ -1,5 +1,5 @@
 /*Елемент div*/
-div {
+.travel-plan {
     background-color: rgb(255, 165, 0);
     width: 500px;
     padding: 20px;
