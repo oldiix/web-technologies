@@ -1,0 +1,118 @@
+/* CSS Normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+nav, section, summary {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+}
+
+input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+    cursor: default;
+}
+
+/* box-sizing border-box */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Default box styles */
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* Colours for each box */
+.box1 {
+    background: #1abc9c;
+}
+
+.box2 {
+    background: #3498db;
+}
+
+.box3 {
+    background: #9b59b6;
+}
+
+.box4 {
+    background: #34495e;
+}
+
+.box5 {
+    background: #f1c40f;
+}
+
+.box6 {
+    background: #e67e22;
+}
+
+.box7 {
+    background: #e74c3c;
+}
+
+.box8 {
+    background: #bdc3c7;
+}
+
+.box9 {
+    background: #2ecc71;
+}
+
+.box10 {
+    background: #16a085;
+}
+
+/* Container where flexbox will be applied */
+.container {
+    display: flex;
+    justify-content: flex-start;
+    border: 10px solid mistyrose;
+    /*align-items: baseline;*/
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /*flex-direction: column;*/
+
+}
+
+.box {
+    width: 33.33333%;
+}
+
+/*.box2 {*/
+/*    font-size: 200px;*/
+/*}*/
+
+/*.box3 {*/
+/*    font-size: 50px;*/
+/*}*/
+
+/*.box5 {*/
+/*    font-size: 150px;*/
+/*}*/
+
+/*.box10 {*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*.box8 {*/
+/*    font-size: 150px;*/
+/*}*/
+
+
+
+
