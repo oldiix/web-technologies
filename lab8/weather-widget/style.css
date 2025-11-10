@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: #444;
+    --color-muted: #646464;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--color-main);
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.main-text {
+    color: var(--color-main);
+    font-weight: 250;
+    font-size: 15px;
+
+}
+
+/*.list .main-text {*/
+/*    font-weight: 300;*/
+/*}*/
+
+.muted-text {
+    color: var(--color-muted);
+    font-weight: normal;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.current-selection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.current-selection h1 {
+    max-resolution: 0;
+    font-size: 28px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.icon-widget {
+    display: flex;
+    align-items: center;
+}
+
+.icon-widget h2 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 48px;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Прибирання точок біля current selection */
+.list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-widget h2 span.muted-text {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--color-muted);
+    opacity: 0.8;
+    margin-left: 2px;
+}
+
+.icon-widget img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.forecast-list .list-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.stats-list ul {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.forecast-list {
+    list-style-type: none;
+}
+
+.forecast-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding: 8px 5px;
+}
+
+.forecast-item:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.forecast-item span:first-child {
+    flex: 1;
+    text-align: left;
+    min-width: 80px;
+}
+
+/*.temp-list ul {*/
+/*    list-style-type: none;*/
+/*}*/
+
+.temp-list {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.temp-list li:first-child {
+    color: var(--color-main);
+    font-weight: 600;
+}
+
+.pollen-count {
+    flex: 1;
+    text-align: right;
+}
+
+.temp-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
