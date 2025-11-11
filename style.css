@@ -546,7 +546,7 @@ nav {
 .journal-section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 60px 0px;
+    padding: 60px 0;
     text-align: left;
 }
 
@@ -586,7 +586,7 @@ nav {
 
 .journal-card {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     transition: transform 0.3s ease;
 }
